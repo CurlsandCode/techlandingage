@@ -1,0 +1,16 @@
+html {
+	height: 100%;
+}
+
+.navbar-default .navbar-brand {
+	color: #337ab7;
+}
+
+
+
+body {
+	background-image: url("/images/computer.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
