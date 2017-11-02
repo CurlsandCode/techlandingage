@@ -18,3 +18,8 @@ body {
  .fa-stack {
 	 color: white;
 }
+h1 {
+	text-align: center;
+	display: block;
+	color: white;
+}
