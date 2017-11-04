@@ -4,26 +4,38 @@ html {
 
 .navbar-default .navbar-brand {
 	color: #337ab7;
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 1.8em;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #337ab7;
+	background-color: #e4d10d;
+}
 
+.navbar-default .navbar-nav>li>a {
+	color: #337ab7;
+}
 
 body {
 	background-image: url("/images/computer.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	font-family: 'Oswald', sans-serif;
 }
 
- .fa-stack {
-	 color: white;
+.fa-stack {
+	color: white;
 }
+
 h1 {
 	color: white;
 	font-size: 2.3em;
 }
-.center{
-	text-align: center;
-	padding-top: 15%;
 
+.center {
+	text-align: center;
 }
